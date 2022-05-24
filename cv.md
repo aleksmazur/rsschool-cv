@@ -50,3 +50,19 @@ function calc() {
     }
 }
 ```
+
+## Expirience
+No comercial IT expirience. My study projects on [GitHub](https://github.com/aleksmazur).  
+Last job is engineer in a project company in field of energy automation.
+
+## Education
+* **Udemy.** [JavaScript + React.](https://www.udemy.com/course/javascript_full/) (in process..)
+* **Udemy.** [WEB-developer 2021.](https://www.udemy.com/course/webdeveloper/) 2021 
+* **Stormnet.** QA. 2019
+* **Belarusian National Technical University.** Energetics. Master degree. 2011 - 2016
+
+
+## Languages
+**Russian** - native speaker.  
+**English** - A2 (B1 in process…).  
+**Polish** - B2.
