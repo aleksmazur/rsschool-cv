@@ -1,0 +1,121 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    color:#3e4652;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+body {
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    background-color:#3e4652;
+}
+.wrapper-aboutme {
+    padding: 50px 0px 50px;
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: auto;
+    gap: 10px 70px;
+}
+.photo {
+    grid-row: 1/4;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 50px;
+    line-height: 40px;
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: all 1s;
+}
+.nav-link:hover {
+    color: #B8860B;
+    font-size: 30px;
+}
+.wrapper-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.divider {
+    margin-bottom: 20px;
+    width: 25%;
+    height: 1px;
+    background: #B8860B;
+    opacity: 0.75;
+}
+.wrapper-info .section {
+    width: 50%;
+}
+.section {
+    font-weight: 300;
+    font-size: 20px;
+}
+.main-title {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.section-title {
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.section-title::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -25%;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background: #B8860B;
+    opacity: 0.75;
+}
+.contacts-list, .skills-list, .education-list {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 32px;
+}
+.contacts-list, .education-list span {
+    font-weight: 500;
+}
+.contacts-item a, .education-item a {
+    text-decoration: none;
+    color: #3e4652;
+}
+.contacts-item a:hover, .education-item a:hover {
+    color: #B8860B;
+}
+.code {
+    white-space: pre;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
