@@ -42,18 +42,19 @@ body {
 }
 
 .nav-link {
+    display: block;
     padding: 0 50px;
     line-height: 40px;
     font-weight: 300;
     font-size: 24px;
     color: #ffffff;
     text-decoration: none;
-    transition: all 1s;
+    transition: all 0.6s;
 }
 
 .nav-link:hover {
     color: #B8860B;
-    font-size: 30px;
+    transform: scale(1.1);
 }
 
 .wrapper-info {
