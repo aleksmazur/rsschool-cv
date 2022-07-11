@@ -15,6 +15,19 @@ body {
     justify-content: space-between;
 }
 
+.overlay {
+    position: absolute;
+    transition: all 0.6s;
+}
+
+.overlay-active {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+    background-color: rgba(0,0,0,.3);
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -22,6 +35,31 @@ body {
 
 .header {
     background-color:#3e4652;
+}
+
+.nav-mobile {
+    display: none;
+    margin-left: calc(95% - 55px);
+}
+
+.humburger {
+    margin: 15px 15px 11px;
+    display: block;
+    cursor: pointer;
+    width: 35px;
+    transition: 0.5s all;
+}
+
+/* .humburger:hover {
+    transform: scale(1.2);
+} */
+
+.humburger span {
+    display: block;
+    height: 2.6px;
+    background-color: #fff;
+    margin-bottom: 4px;
+    transition: 0.5s all;
 }
 
 .wrapper-aboutme {
@@ -42,6 +80,19 @@ body {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+}
+
+.nav-list-mobile {
+    margin: 0;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    flex-direction: column;
+    background-color:#3e4652;
+    width: 150px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 .nav-link {
@@ -297,6 +348,14 @@ body {
 @media (max-width: 600px) {
     .wrapper-info .section {
         width: 100%;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
     }
 }
 
