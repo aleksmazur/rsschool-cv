@@ -71,7 +71,16 @@
                 <section class="section" id="code">
                     <h2 class="section-title">Code Examples</h2>
                     <div class="divider"></div>
-                    <code class="code"></code>
+                    <code class="code">
+function deepCount(a) {
+    let res = a.length;
+    a.forEach(item => {
+        if (typeof item == 'object') {
+        res += deepCount(item)} 
+        }); 
+    return res;
+}
+                    </code>
                 </section>
             </div>
             <div class="wrapper-info">
