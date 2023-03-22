@@ -91,7 +91,7 @@ body {
     flex-direction: column;
     background-color:#3e4652;
     width: 150px;
-    height: 300px;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -99,7 +99,7 @@ body {
     display: flex;
     line-height: 40px;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     transition: all 0.6s;
